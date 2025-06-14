@@ -98,7 +98,7 @@
 &none      &kp Q        &kp W        &kp F         &kp P         &kp B        &kp J      &kp L         &kp U         &kp Y        &kp SQT      &none
 &kp LCTRL  &HML LGUI A  &HML LALT R  &HML LCTRL S  &HML LSHFT T  &kp G        &kp M      &HMR RSHFT N  &HMR RCTRL E  &HMR RALT I  &HMR RGUI O  &none
 &none      &kp Z        &kp X        &kp C         &kp D         &kp V        &kp K      &kp H         &kp COMMA     &kp DOT      &kp FSLH     &none
-                                     &lt 6 ESC     &lt 5 SPACE   &lt 7 TAB    &lt 0 RET  &lt 3 BSPC    &lt 4 DEL
+                                     &lt 6 ESC     &lt 5 SPACE   &lt 7 TAB    &lt 2 RET  &lt 3 BSPC    &lt 4 DEL
             >;
         };
 
