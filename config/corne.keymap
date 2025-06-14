@@ -177,9 +177,9 @@
 
         Adjust {
             bindings = <
-&trans  &bootloader        &trans  &tog 1  &tog 0  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &ext_power EP_TOG  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bootloader        &trans  &tog 1  &tog 0  &trans    &trans  &trans  &trans  &trans  &trans             &trans
+&trans  &ext_power EP_TOG  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &ext_power EP_TOG  &trans
+&trans  &trans             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans             &trans
                                    &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
