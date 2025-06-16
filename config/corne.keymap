@@ -109,7 +109,7 @@
 &none      &kp Q        &kp W        &kp E         &kp R         &kp T        &kp Y      &kp U         &kp I         &kp O        &kp P                &none
 &kp LCTRL  &HML LGUI A  &HML LALT S  &HML LCTRL D  &HML LSHFT F  &kp G        &kp H      &HML RSHFT J  &HML LCTRL K  &HML LALT L  &HML RGUI SEMICOLON  &none
 &none      &kp Z        &kp X        &kp C         &kp V         &kp B        &kp N      &kp M         &kp COMMA     &kp DOT      &kp FSLH             &none
-                                     &lt 6 ESC     &lt 5 SPACE   &lt 7 TAB    &lt 0 RET  &lt 3 BSPC    &lt 4 DEL
+                                     &lt 6 ESC     &lt 5 SPACE   &lt 7 TAB    &lt 2 RET  &lt 3 BSPC    &lt 4 DEL
             >;
         };
 
