@@ -118,7 +118,7 @@
             bindings = <
 &trans  &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp COLON       &kp DLLR       &kp PRCNT     &kp CARET             &kp PLUS           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp TILDE       &kp EXCL       &kp AT        &kp HASH              &kp PIPE           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kt TILDE       &kp EXCL       &kp AT        &kp HASH              &kp PIPE           &trans  &trans  &trans  &trans  &trans  &trans
                                        &kp LPAR      &kp RPAR              &kp UNDERSCORE     &trans  &trans  &trans
             >;
         };
