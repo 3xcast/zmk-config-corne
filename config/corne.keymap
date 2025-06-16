@@ -94,7 +94,7 @@
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
-            display-name = "Base";
+            display-name = "Colemak";
             bindings = <
 &none      &kp Q        &kp W        &kp F         &kp P         &kp B        &kp J      &kp L         &kp U         &kp Y        &kp SQT      &none
 &none      &HML LGUI A  &HML LALT R  &HML LCTRL S  &HML LSHFT T  &kp G        &kp M      &HMR RSHFT N  &HMR RCTRL E  &HMR RALT I  &HMR RGUI O  &none
@@ -104,7 +104,7 @@
         };
 
         QWERTY_BaseLayer {
-            display-name = "Base";
+            display-name = "QWERTY";
             bindings = <
 &none      &kp Q        &kp W        &kp E         &kp R         &kp T        &kp Y      &kp U         &kp I         &kp O        &kp P                &none
 &none      &HML LGUI A  &HML LALT S  &HML LCTRL D  &HML LSHFT F  &kp G        &kp H      &HML RSHFT J  &HML LCTRL K  &HML LALT L  &HML RGUI SEMICOLON  &none
@@ -114,7 +114,7 @@
         };
 
         Sym {
-            display-name = "Lower";
+            display-name = "Sym";
             bindings = <
 &trans  &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp COLON       &kp DLLR       &kp PRCNT     &kp CARET             &kp PLUS           &trans  &trans  &trans  &trans  &trans  &trans
@@ -130,7 +130,7 @@
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Lower";
+            display-name = "Num";
             bindings = <
 &trans  &kp LEFT_BRACKET  &kp N7  &kp N8   &kp N9  &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp SEMI          &kp N4  &kp N5   &kp N6  &kp EQUAL            &trans  &trans  &trans  &trans  &trans  &trans
@@ -140,6 +140,7 @@
         };
 
         Func {
+            display-name = "Func";
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8  &kp F9     &kp PRINTSCREEN    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F11  &kp F4  &kp F5  &kp F6     &kp SCROLLLOCK     &trans  &trans  &trans  &trans  &trans  &trans
@@ -149,6 +150,7 @@
         };
 
         Media {
+            display-name = "Media";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans      &kp C_BRI_DN       &kp C_BRI_UP     &trans      &trans      &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp C_PREV  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &bt BT_CLR  &trans
@@ -158,6 +160,7 @@
         };
 
         Nav {
+            display-name = "Nav";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT    &kp DOWN     &kp UP      &kp RIGHT  &kp CAPS    &trans
@@ -167,6 +170,7 @@
         };
 
         Mouse {
+            display-name = "Mouse";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp K_REDO      &kp K_PASTE     &kp K_COPY    &kp K_CUT        &kp K_UNDO  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans      &trans
@@ -176,6 +180,7 @@
         };
 
         Adjust {
+            display-name = "Settings";
             bindings = <
 &trans  &bootloader        &trans  &tog 1  &tog 0  &trans    &trans  &trans  &trans  &trans  &trans             &trans
 &trans  &ext_power EP_TOG  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &ext_power EP_TOG  &trans
